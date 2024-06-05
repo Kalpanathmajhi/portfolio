@@ -76,7 +76,7 @@ export const projects = [
     des: "Build with Modern framework Next.js and lib React.js, using GSAP for animation and intregrated with What app Bot",
     img: "/glideimg.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.earth.com",
+    link: "http://glideinsurance.com/",
   },
   {
     id: 2,
@@ -84,7 +84,7 @@ export const projects = [
     des: "A amazon/flipkart clone made with react.js & Backend build over express.js with MongoDb for database",
     img: "/qkart.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    link: "https://qkart-frontend-kalpanath.netlify.app",
   },
   {
     id: 3,
@@ -92,7 +92,7 @@ export const projects = [
     des: "A Youtube clone build with Reacy.js and Express.js in backend.",
     img: "/xflix.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    link: "https://xflix-kalpanath.netlify.app",
   },
   {
     id: 4,
@@ -100,7 +100,7 @@ export const projects = [
     des: "Door Step build over flutter a Minimal and easy to use App.",
     img: "/grocerry.png",
     iconLists: [ "/flutter.svg"],
-    link: "/ui.apple.com",
+    link: "https://github.com/Kalpanathmajhi/groceryshoppingApp",
   },
 ];
 
