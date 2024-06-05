@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Glide Insurance-Website",
     des: "Build with Modern framework Next.js and lib React.js, using GSAP for animation and intregrated with What app Bot",
-    img: "/p1.svg",
+    img: "/glideimg.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "/ui.earth.com",
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Q Kart - Ecommerce Website",
     des: "A amazon/flipkart clone made with react.js & Backend build over express.js with MongoDb for database",
-    img: "/p2.svg",
+    img: "/qkart.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "/ui.yoom.com",
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "X Flix - Youtube Clone",
     des: "A Youtube clone build with Reacy.js and Express.js in backend.",
-    img: "/p3.svg",
+    img: "/xflix.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "/ui.aiimg.com",
   },
@@ -98,13 +98,11 @@ export const projects = [
     id: 4,
     title: "Door Step - Grocery (app)",
     des: "Door Step build over flutter a Minimal and easy to use App.",
-    img: "/p4.svg",
+    img: "/grocerry.png",
     iconLists: [ "/flutter.svg"],
     link: "/ui.apple.com",
   },
 ];
-
-
 
 export const companies = [
   {
