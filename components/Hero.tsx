@@ -42,9 +42,10 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Kalpanath, a Full Stack Developer based in India.
-          </p>
+<p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
+  Hi! I&apos;m <span className="text-purple">Kalpanath, a Full Stack Developer</span> based in India.
+</p>
+
 
           <a href="#about">
             <MagicButton

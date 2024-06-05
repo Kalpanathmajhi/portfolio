@@ -36,7 +36,6 @@ export const BentoGridItem = ({
   id,
   title,
   description,
-  //   remove unecessary things here
   img,
   imgClassName,
   titleClassName,
@@ -69,6 +68,7 @@ export const BentoGridItem = ({
     const text = "kalpanathmajhi@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
   };
   const handleDownloadResume = () => {
     // logic to download the resume
