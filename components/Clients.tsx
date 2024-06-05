@@ -2,12 +2,12 @@
 
 import React from "react";
 import GitHubCalendar from 'react-github-calendar';
-import { companies, testimonials } from "@/data";
+import { companies } from "@/data";
 
 
 const Clients = () => {
   return (
-    <section id="testimonials" className="py-20">
+    <section id="contribution" className="py-20">
       <h1 className="heading">
         My GitHub
         <span className="text-purple"> Contribution</span>

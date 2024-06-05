@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36" id="about">
      
       <div>
         <Spotlight
@@ -50,6 +50,7 @@ const Hero = () => {
             <MagicButton
               title="Show my work"
               icon={<FaLocationArrow />}
+              handleClick={() => window.open('https://github.com/Kalpanathmajhi', '_blank')}
               position="right"
             />
           </a>

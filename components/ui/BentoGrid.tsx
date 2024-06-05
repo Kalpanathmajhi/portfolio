@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { IoCopyOutline } from "react-icons/io5";
+import { IoCopyOutline, IoDownloadOutline } from "react-icons/io5";
 
 // Also install this npm i --save-dev @types/react-lottie
 import Lottie from "react-lottie";
@@ -53,7 +53,7 @@ export const BentoGridItem = ({
   spareImg?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
-  const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+  const rightLists = ["NextJS", "MongoDB", "GraphQL"];
 
   const [copied, setCopied] = useState(false);
 
@@ -67,11 +67,19 @@ export const BentoGridItem = ({
   };
 
   const handleCopy = () => {
-    const text = "hsu@jsmastery.pro";
+    const text = "kalpanathmajhi@gmail.com";
     navigator.clipboard.writeText(text);
     setCopied(true);
   };
-
+  const handleDownloadResume = () => {
+    // logic to download the resume
+    const link = document.createElement('a');
+    link.href = '/kalpanathResume.pdf';  // replace with your resume file path
+    link.download = 'kalpanathmajhi.pdf'; 
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div
       className={cn(
@@ -188,6 +196,13 @@ export const BentoGridItem = ({
                 icon={<IoCopyOutline />}
                 position="left"
                 handleClick={handleCopy}
+                otherClasses="!bg-[#161A31]"
+              />
+              <MagicButton
+                title="Download my resume"
+                icon={<IoDownloadOutline />}
+                position="left"
+                handleClick={handleDownloadResume}
                 otherClasses="!bg-[#161A31]"
               />
             </div>
