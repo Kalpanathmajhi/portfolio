@@ -17,7 +17,7 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Loved to <span className="text-purple">Work with You</span> Lets build great Product
+        Thrilled to <span className="text-purple">Collaborate with You</span>. Let's engineer a groundbreaking product together!
         </h1>
         <p className="text-white-200 md:mt-10 my-5 text-center">
           Reach out to me today.
