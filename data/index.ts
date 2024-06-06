@@ -170,13 +170,18 @@ export const socialMedia = [
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/twitter.svg",
     link: "https://x.com/KalpanathMajhi"
   },
   {
     id: 3,
     img: "/link.svg",
     link: "https://www.linkedin.com/in/kalpanath-majhi/"
+  },
+  {
+    id: 4,
+    img: "/leet.svg",
+    link: "https://leetcode.com/u/Kalpanathmajhi/"
   },
   
 ];
