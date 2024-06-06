@@ -46,17 +46,16 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building Application Management system using lama LLM model.",
+    title: "Currently building Application Management system using Meta Llama model.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
+    img: "/propic.png",
+    spareImg: "/grid.svg"
+  },  
   {
     id: 6,
     title: "Open to Work for Full Stack, Frontend-dev role.",

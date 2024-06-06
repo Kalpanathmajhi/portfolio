@@ -46,7 +46,6 @@ const Hero = () => {
   Hi! I&apos;m <span className="text-purple">Kalpanath, a Full Stack Developer</span> based in India.
 </p>
 
-
           <a href="#about">
             <MagicButton
               title="Show my work"
