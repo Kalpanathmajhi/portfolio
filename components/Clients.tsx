@@ -1,11 +1,9 @@
 "use client";
-
 import React from "react";
 import GitHubCalendar from 'react-github-calendar';
 import { companies } from "@/data";
-
-
 const Clients = () => {
+  
   return (
     <section id="contribution" className="py-20">
       <h1 className="heading">
@@ -15,11 +13,14 @@ const Clients = () => {
 
       <div className="flex flex-col items-center max-lg:mt-10">
         <div
-          className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased  items-center justify-center relative overflow-hidden"
+          className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden"
         >
-          <GitHubCalendar username="Kalpanathmajhi" />
-
+          <div className="w-full max-w-full sm:max-w-xl md:max-w-2xl lg:max-w-4xl ">
+            <GitHubCalendar username="Kalpanathmajhi" colorScheme= "dark"/>
+          </div>
         </div>
+
+
         <h1 className="heading mb-6">
           Companies I have
           <span className="text-purple"> Worked with</span>
@@ -35,8 +36,6 @@ const Clients = () => {
                   width={company.id === 4 || company.id === 5 ? 100 : 150}
                   className="w-24 md:w-20 sm:w-16 xs:w-12 rounded-lg m-4"
                 />
-
-
               </div>
             </React.Fragment>
           ))}

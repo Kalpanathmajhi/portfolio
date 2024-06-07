@@ -51,7 +51,7 @@ export const gridItems = [
     title: "Currently building Application Management system using Meta Llama model.",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 rounded-lg",
+    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60 sm:w-60 w-40 rounded-lg",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/propic.png",
     spareImg: "/grid.svg"
@@ -102,7 +102,6 @@ export const projects = [
     link: "https://github.com/Kalpanathmajhi/groceryshoppingApp",
   },
 ];
-
 export const companies = [
   {
     id: 1,
