@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
@@ -21,6 +21,7 @@ export default function RootLayout({
       <head>
       </head>
       <body className={inter.className}>
+      <GoogleAnalytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
