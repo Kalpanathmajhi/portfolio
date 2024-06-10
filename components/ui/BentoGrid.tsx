@@ -73,7 +73,7 @@ export const BentoGridItem = ({
   const handleDownloadResume = () => {
     // logic to download the resume
     const link = document.createElement('a');
-    link.href = '/kalpanathResume.pdf';  // replace with your resume file path
+    link.href = '/kalpanathResume.pdf';  
     link.download = 'kalpanathmajhi.pdf'; 
     document.body.appendChild(link);
     link.click();

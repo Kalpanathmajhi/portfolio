@@ -6,14 +6,10 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 const Approach = () => {
   return (
     <section className="w-full py-20">
-     <h1 className="heading">
-  My <span className="text-purple">approach</span>
-  <p className="text-sm text-gray-500 mt-2">*Hover over the card*</p>
-</h1>
-
-
-
-      
+      <h1 className="heading">
+        My <span className="text-purple">approach</span>
+        <p className="text-sm text-gray-500 mt-2">*Hover/click over the card*</p>
+      </h1>
       {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
         {/* add des prop */}
@@ -163,7 +159,7 @@ const AceternityIcon = ({ order }: { order: string }) => {
         </span>
       </button>
     </div>
-    
+
   );
 };
 
