@@ -1,0 +1,18 @@
+.githubCalender{
+    width: 100%;
+}
+@media (max-width: 500px) {
+    .githubCalender {
+        width: 45%;
+    }
+  }
+@media (max-width: 400px) {
+    .githubCalender {
+        width: 40%;
+    }
+  }
+  @media (max-width: 350px) {
+    .githubCalender {
+        width: 35%;
+    }
+  }

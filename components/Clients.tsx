@@ -2,6 +2,7 @@
 import React from "react";
 import GitHubCalendar from 'react-github-calendar';
 import { companies } from "@/data";
+import styles from "../components/Client.module.css"
 const Clients = () => {
   
   return (
@@ -15,8 +16,8 @@ const Clients = () => {
         <div
           className="h-[50vh] md:h-[30rem] rounded-md flex flex-col antialiased items-center justify-center relative overflow-hidden"
         >
-          <div className="w-full max-w-full sm:max-w-xl md:max-w-2xl lg:max-w-4xl ">
-            <GitHubCalendar username="Kalpanathmajhi" colorScheme= "dark"/>
+          <div className={styles.githubCalender}>
+            <GitHubCalendar username="Kalpanathmajhi" colorScheme= "dark" />
           </div>
         </div>
 
