@@ -72,10 +72,18 @@ export const projects = [
   {
     id: 1,
     title: "Glide Insurance-Website",
-    des: "Build with Modern framework Next.js and lib React.js, using GSAP for animation and intregrated with What app Bot",
+    des: "An insurance website with GSAP animation Next.js in build api scroll animation an much more",
     img: "/glideimg.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "http://glideinsurance.com/",
+  },
+  {
+    id: 1,
+    title: "BotWot Ai Chat Bot",
+    des: " Build your no code Ai botBuild with Next.js, React.js, Redux Toolkit, MongoDB, Express.js, and Nest.js, featuring Google Sign-In for advanced authentication and custom 404 error handling.Includes a CRUD dashboard for advanced analytics",
+    img: "/botwotSS.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    link: "https://botwotapp.netlify.app/home",
   },
   {
     id: 2,
@@ -112,18 +120,26 @@ export const companies = [
   },
   {
     id: 2,
+    name: "Bot Wot",
+    img: "/botwotlogo.png",
+    nameImg: "/botwotlogo.png",
+   
+  },
+
+  {
+    id: 3,
     name: "appwrite",
     img: "movio_mobility_logo.jpeg",
     nameImg: "movio_mobility_logo.jpeg",
   },
   {
-    id: 3,
+    id: 4,
     name: "stream",
     img: "smallWonder.jpeg",
     nameImg: "smallWonder.jpeg",
   },
   {
-    id: 4,
+    id: 5,
     name: "docker.",
     img: "south_eastern_coalfields_limited_secl_logo.jpeg",
     nameImg: "south_eastern_coalfields_limited_secl_logo.jpeg",
@@ -140,20 +156,27 @@ export const workExperience = [
   },
   {
     id: 2,
+    title: "Frontend Devloper (Freelance) - BotWot/ Niva Money",
+    desc: "Developed Ai chat Bot with Open Ai Apis , also implemented polling managed state using Redux toolkit",
+    className: "md:col-span-2",
+    thumbnail: "/exp4.svg",
+  },
+  {
+    id: 3,
     title: "FullStack Engineer (Intern) - Grid",
     desc: "Designed and developed Web app with qr scanning feature platforms using React.",
     className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "Internship Trainee - Small Wonders",
     desc: "Worked on the Matlab Project with profiling and report",
     className: "md:col-span-2", 
     thumbnail: "/exp3.svg",
   },
   {
-    id: 4,
+    id: 5,
     title: "SUMMER INTERN -SECL",
     desc: "DBMS AND server Management and Data Base management Using MySQL",
     className: "md:col-span-2",
