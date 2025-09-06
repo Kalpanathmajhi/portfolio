@@ -69,8 +69,16 @@ export const gridItems = [
 ];
 
 export const projects = [
-  {
+    {
     id: 1,
+    title: "Sands Bulksms - DASBOARD",
+    des: "Sands Bulksms - DASBOARD build over react.js and Tailwind css.",
+    img: "/bulksms.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://www.sandsbulksms.com/home",
+  },
+  {
+    id: 2,
     title: "Glide Insurance-Website",
     des: "An insurance website with GSAP animation Next.js in build api scroll animation an much more",
     img: "/glideimg.png",
@@ -78,7 +86,7 @@ export const projects = [
     link: "http://glideinsurance.com/",
   },
   {
-    id: 1,
+    id: 3,
     title: "BotWot Ai Chat Bot",
     des: " Build your no code Ai botBuild with Next.js, React.js, Redux Toolkit, MongoDB, Express.js, and Nest.js, featuring Google Sign-In for advanced authentication and custom 404 error handling.Includes a CRUD dashboard for advanced analytics",
     img: "/botwotSS.png",
@@ -86,7 +94,7 @@ export const projects = [
     link: "https://botwotapp.netlify.app/home",
   },
   {
-    id: 2,
+    id: 4,
     title: "Q Kart - Ecommerce Website",
     des: "A amazon/flipkart clone made with react.js & Backend build over express.js with MongoDb for database",
     img: "/qkart.png",
@@ -94,7 +102,7 @@ export const projects = [
     link: "https://qkart-frontend-kalpanath.netlify.app",
   },
   {
-    id: 3,
+    id: 5,
     title: "X Flix - Youtube Clone",
     des: "A Youtube clone build with Reacy.js and Express.js in backend.",
     img: "/xflix.png",
@@ -102,24 +110,32 @@ export const projects = [
     link: "https://xflix-kalpanath.netlify.app",
   },
   {
-    id: 4,
+    id: 6,
     title: "Door Step - Grocery (app)",
     des: "Door Step build over flutter a Minimal and easy to use App.",
     img: "/grocerry.png",
     iconLists: [ "/flutter.svg"],
     link: "https://github.com/Kalpanathmajhi/groceryshoppingApp",
   },
+
+  
 ];
 export const companies = [
   {
     id: 1,
+    name: "UNIQODE",
+    img: "/Uniqode-LOGO.jpg",
+    nameImg: "/Uniqode-LOGO.jpg",
+  },
+  {
+    id: 2,
     name: "Glide Insurance",
     img: "/glide_insurance_logo.jpeg",
     nameImg: "/glide_insurance_logo.jpeg",
    
   },
   {
-    id: 2,
+    id: 3,
     name: "Bot Wot",
     img: "/botwotlogo.png",
     nameImg: "/botwotlogo.png",
@@ -127,19 +143,19 @@ export const companies = [
   },
 
   {
-    id: 3,
+    id: 4,
     name: "appwrite",
     img: "movio_mobility_logo.jpeg",
     nameImg: "movio_mobility_logo.jpeg",
   },
   {
-    id: 4,
+    id: 5,
     name: "stream",
     img: "smallWonder.jpeg",
     nameImg: "smallWonder.jpeg",
   },
   {
-    id: 5,
+    id: 6,
     name: "docker.",
     img: "south_eastern_coalfields_limited_secl_logo.jpeg",
     nameImg: "south_eastern_coalfields_limited_secl_logo.jpeg",
@@ -149,34 +165,41 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
+    title: "Software Devloper Engineer - UNIQODE",
+    desc: "Engineered and maintained high-performance REST APIs, websites, internal dashboards, and mobile apps using modern frameworks and tools, scaling systems to reliably serve close to 400k users per month while optimizing performance and delivering actionable business insights.",
+    className: "md:col-span-2",
+    thumbnail: "/exp1.svg",
+  },
+  {
+    id: 2,
     title: "Software Devloper Engineer - Glide Insurance",
     desc: "Developed high-performance REST API, website, internal dashboard, and mobile app using modern frameworks and tools, optimizing performance and enhancing business insights.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
-    id: 2,
+    id: 3,
     title: "Frontend Devloper (Freelance) - BotWot/ Niva Money",
     desc: "Developed Ai chat Bot with Open Ai Apis , also implemented polling managed state using Redux toolkit",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
   {
-    id: 3,
+    id: 4,
     title: "FullStack Engineer (Intern) - Grid",
     desc: "Designed and developed Web app with qr scanning feature platforms using React.",
     className: "md:col-span-2", 
     thumbnail: "/exp2.svg",
   },
   {
-    id: 4,
+    id: 5,
     title: "Internship Trainee - Small Wonders",
     desc: "Worked on the Matlab Project with profiling and report",
     className: "md:col-span-2", 
     thumbnail: "/exp3.svg",
   },
   {
-    id: 5,
+    id: 6,
     title: "SUMMER INTERN -SECL",
     desc: "DBMS AND server Management and Data Base management Using MySQL",
     className: "md:col-span-2",
